@@ -440,6 +440,10 @@ hr {
 }
 
 @media (max-width: 767px) {
+  .jumbotron-profile-image {
+    display: none;
+  }
+
   .jumbotron:before {
     bottom: 100px;
     left: 20px;
