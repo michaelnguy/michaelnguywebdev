@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-script-type" content="text/javascript" />
+    <meta http-equiv="content-style-type" content="text/css" />
+    <meta http-equiv="content-language" content="nl" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="author" content="Michael Nguy" />
+    <meta
+      name="description"
+      content="I'm Michael, an aspiring full stack developer with a special interest in React"
+    />
+    <meta
+      name="keywords"
+      content="Michael Nguy, Interactive Resume, Javascript programmer, Web developer, Startup, Interactive CV, Resume, CV, Bootcamp, Programming, Web Design, Algorithms, JS, MongoDB, Nodejs, React"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="14 days" />
+
+    <title>Michael Nguy - Web Developer - Interactive Resume</title>
+
+    <!-- Bootstrap core CSS -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:300,500,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+
+    <!--[if lt IE 9]>
+      <script src="/view/js/html5shiv.js"></script>
+      <script src="/view/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Begin Inspectlet Embed Code -->
+    <script type="text/javascript" id="inspectletjs">
+      window.__insp = window.__insp || [];
+      __insp.push(['wid', 92785244]);
+      (function () {
+        function __ldinsp() {
+          var insp = document.createElement('script');
+          insp.type = 'text/javascript';
+          insp.async = true;
+          insp.id = 'inspsync';
+          insp.src =
+            ('https:' == document.location.protocol ? 'https' : 'http') +
+            '://www.inspectlet.com/inspectlet.js';
+          var x = document.getElementsByTagName('script')[0];
+          x.parentNode.insertBefore(insp, x);
+        }
+        if (window.attachEvent) {
+          window.attachEvent('onload', __ldinsp);
+        } else {
+          window.addEventListener('load', __ldinsp, false);
+        }
+      })();
+    </script>
+    <!-- End Inspectlet Embed Code -->
+  </head>
+  <body data-spy="scroll" data-target="#navbar-example">
+    <div
+      id="top"
+      class="jumbotron"
+      data-src="/img/green_land_3.jpg"
+      data-position="center center"
+    >
+      <div>
+        <img
+          class="jumbotron-profile-image"
+          src="img/head_logo_1_facing_right.png"
+          alt="Michael Nguy"
+        />
+      </div>
+      <div class="container">
+        <h1>Michael Nguy</h1>
+        <p class="lead">Interactive resume</p>
+      </div>
+
+      <div class="overlay"></div>
+
+      <a href="#profile" class="scroll-down">
+        <span class="glyphicon glyphicon-chevron-down"></span>
+      </a>
+    </div>
+
+    <nav class="navbar navbar-default" id="navbar-example" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button
+          type="button"
+          class="navbar-toggle"
+          data-toggle="collapse"
+          data-target=".navbar-ex1-collapse"
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#profile">Profile</a></li>
+          <li><a href="#experiences">Experiences</a></li>
+          <li><a href="#abilities">Abilities</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </nav>
+
+    <div class="background-white">
+      <div id="profile" class="container">
+        <h2>Profile</h2>
+        <p class="lead">I'm an aspiring Javascript web developer</p>
+
+        <hr />
+
+        <div class="row">
+          <div class="col-md-4">
+            <h3>About me</h3>
+            <!-- <p>
+              I am an allround web developer. I am a senior programmer with good
+              knowledge of front-end techniques. I love structure and order and
+              I also stand for quality. I love spending time on fixing little
+              details and optimizing web apps. Also I like working in a team,
+              you'll learn faster and much more. As the saying goes: 'two heads
+              are better than one'.
+            </p> -->
+            <p>
+              I am Michael. I have been a medical researcher and teacher, but
+              now I my passion is on becoming a full stack web developer. I'm
+              always trying to improve my skills and knowledge of both backend
+              and frontend techniques. I love learning new things everyday, and
+              tinkering with how to make things the best they can be.
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <img
+              src="img/head_logo_1.png"
+              alt="Michael Nguy"
+              width="246"
+              height="246"
+            />
+          </div>
+          <div class="col-md-4">
+            <h3>Details</h3>
+            <p>
+              <strong>Name:</strong><br />
+              Michael Nguy<br />
+              <strong>Age:</strong><br />
+              30 years<br />
+              <strong>Hobbies:</strong><br />
+              Photography, Fish Keeping (Reef and Planted Tanks), Travel,
+              Hiking<br />
+              <strong>Location:</strong><br />
+              Gilbert, AZ, Earth
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="experiences" class="container">
+      <h2>Experiences</h2>
+      <p class="lead">
+        &ldquo;Protons give an atom its identity, electrons its
+        personality.&rdquo;<br />- Bill Bryson, A short history of nearly
+        everything
+      </p>
+
+      <hr />
+
+      <!-- <div class="alert alert-danger">
+        <strong
+          >Looking for an awesome new challenge somewhere in the neighborhood of
+          Den Bosch or Amsterdam as a Creative PHP Web Developer.
+        </strong>
+      </div> -->
+
+      <h3>Education</h3>
+      <div class="experience row">
+        <div class="col-md-4">
+          <h4>Chinese Culture University</h4>
+          <p class="experience-period">June 2015 - Dec 2016</p>
+        </div>
+        <div class="col-md-8">
+          <p>
+            <strong>Course - Mandarin Chinese</strong>
+            <span class="hidden-phone">
+              I took part time classes learning Mandarin in an immersive
+              environment. I learned to speak, read, write, and type. I was able
+              to reach an early intermediate level, and am able to get by in
+              Chinese speaking countries, as well as have conversations with
+              locals.
+            </span>
+            <span class="experience-details">
+              <span class="location">
+                <span class="glyphicon glyphicon-map-marker"></span>
+                Taipei, Taiwan
+              </span>
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="experiences">
+        <div class="experience row">
+          <div class="col-md-4">
+            <h4>Arizona State University</h4>
+            <p class="experience-period">Aug 2008 - Dec 2011</p>
+            <p>GPA: 3.96</p>
+          </div>
+          <div class="col-md-8">
+            <p>
+              <strong>Bacher of Science - Biology</strong>
+              <span class="hidden-phone">
+                I studied a general biology program. Some courses that I took
+                include: organic chemistry, genetics, microbiology, molecular
+                biology, statistics, and various lab courses. I graduated early
+                and summe cum laude.
+              </span>
+              <span class="experience-details">
+                <span class="location">
+                  <span class="glyphicon glyphicon-map-marker"></span>
+                  Tempe, Arizona
+                </span>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <h3>Careers</h3>
+
+      <div class="experiences">
+        <div class="experience row">
+          <div class="col-md-4">
+            <h4>Kojen English Schools</h4>
+            <p class="experience-period">June 2016 - Jan 2020</p>
+          </div>
+          <div class="col-md-8">
+            <p>
+              <strong>Fulltime - English Teacher</strong>
+              <span class="hidden-phone">
+                As a teacher I took the curriculum and adopted it in my lesson
+                plans to make my classes as engaging and productive as possible.
+                I learned a lot about managing different personalities and
+                abilities, conflict resolution, working under time pressure, and
+                adapting on the fly.
+              </span>
+              <span class="experience-details">
+                <span class="location">
+                  <span class="glyphicon glyphicon-map-marker"></span>
+                  New Taipei City, Taiwan
+                </span>
+
+                <span class="seperator">|</span>
+                <span class="link">
+                  <span class="glyphicon glyphicon-link"></span>
+                  <a
+                    href="http://www.kojenels.com/en/web/document/AboutKojen.asp?category_id=158"
+                    target="_blank"
+                    >http://kojenels.com</a
+                  >
+                </span>
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <div class="experience row">
+          <div class="col-md-4">
+            <h4>Carl T. Hayden Medical Research Foundation</h4>
+            <p class="experience-period">June 2012 - October 2014</p>
+          </div>
+          <div class="col-md-8">
+            <p>
+              <strong>Fulltime - Research Technician</strong>
+              <span class="hidden-phone">
+                The Carl T. Hayden Medical Research Foundation (now Arizona
+                Veterans Research and Education Foundation) is a research
+                foundation focused on finding novel treatments for a wide range
+                of ailments such as diabetes, Alzheimer’s, and heart disease. I
+                was solely responsible for running the benchwork side of a study
+                investigating the effects of saturated fatty acids on
+                cardiomyopathy. After prepping and running experiments, my
+                principal investigator and I would discuss the data and decide
+                on future actions.
+              </span>
+
+              <span class="experience-details">
+                <span class="location">
+                  <span class="glyphicon glyphicon-map-marker"></span>
+                  Phoenix, Arizona
+                </span>
+
+                <span class="seperator">|</span>
+                <span class="link">
+                  <span class="glyphicon glyphicon-link"></span>
+                  <a href="https://azvetsresearch.org/" target="_blank"
+                    >https://azvetsresearch.org/</a
+                  >
+                </span>
+              </span>
+              <strong>Publications:</strong>
+              <span
+                >Oh CC, Nguy MQ, Schwenke DC, Migrino RQ, Thornburg K, Reaven P.
+                p38α mitogen-activated kinase mediates cardiomyocyte apoptosis
+                induced by palmitate. Biochem Biophys Res Commun. 2014 Jul
+                18;450(1):628-33. doi: 10.1016/j.bbrc.2014.06.023. Epub 2014 Jun
+                12. PMID: 24931668.
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="background-white">
+      <div id="abilities" class="container">
+        <h2>Abilities</h2>
+        <p class="lead">
+          &ldquo;Life without knowledge is death in disguise.&rdquo;<br />-
+          Talib Kweli
+        </p>
+
+        <hr />
+
+        <h3>Skills</h3>
+
+        <div class="row">
+          <div class="col-md-12">
+            <strong>Strong:</strong>
+            <p>
+              Bootstrap, HTML5, CSS3, Javascript ES6, React, MongoDB, Node.js,
+              Express
+            </p>
+
+            <strong>Experienced:</strong>
+            <p>SASS, Firebase, JQuery, Material UI, Redux</p>
+
+            <strong>Developing:</strong>
+            <p>
+              GraphQL, Object Oriented Programming, SQL Databases, Semantic UI,
+              Apollo Client/Server
+            </p>
+          </div>
+        </div>
+
+        <hr />
+
+        <h3>Tools</h3>
+
+        <div class="row">
+          <div class="col-md-12">
+            <strong>Strong:</strong>
+            <p>MacOS, Windows OS, Microsoft Office, Adobe Lightroom</p>
+
+            <strong>Experienced:</strong>
+            <p>Adobe Photoshop, Heroku</p>
+
+            <strong>Developing:</strong>
+            <p>Git</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects" class="container">
+      <h2>Projects</h2>
+      <p class="lead">
+        &ldquo;You can do anything you set your mind to.&rdquo;<br />- Benjamin
+        Franklin
+      </p>
+
+      <hr />
+
+      <h3>Full Stack Apps</h3>
+
+      <div class="row description-row">
+        <div class="col-md-5 col-sm-12 col-xs-12 project-image-column">
+          <figure class="effect">
+            <img src="img/taste_taiwan.png" alt="taste-taiwan.com" />
+            <figcaption>
+              <p>Visit Taste-Taiwan</p>
+              <a href="http://www.taste-taiwan.com" target="_blank"
+                >View more</a
+              >
+              <span class="icon">
+                <span class="glyphicon glyphicon-new-window"></span>
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="project-description col-md-7 col-sm-12 col-xs-12">
+          <h4 class="projects-heading-name">Taste-Taiwan</h4>
+          <p>
+            A review website in English, intending to help travelers or expats
+            find the best places in Taiwan to go for food and drink. Reviews
+            done by myself.
+          </p>
+          <strong>Technologies:</strong> MongoDB, Express, Nodejs, Passport
+          Authentication, EJS, Google Maps API, Boostrap 4
+        </div>
+      </div>
+
+      <div class="row description-row">
+        <div class="col-md-5 col-sm-12 col-xs-12 project-image-column">
+          <figure class="effect">
+            <img src="img/social_app.png" alt="socialappfreecodecamp.web.app" />
+            <figcaption>
+              <p>Visit the Twitter Clone</p>
+              <a href="https://socialappfreecodecamp.web.app/" target="_blank"
+                >View more</a
+              >
+              <span class="icon">
+                <span class="glyphicon glyphicon-new-window"></span>
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="project-description col-md-7 col-sm-12 col-xs-12">
+          <h4 class="projects-heading-name">Twitter Clone</h4>
+          <p>
+            A fun twitter clone where my friends can post messages and comments.
+          </p>
+          <strong>Technologies:</strong> Firebase, Cloud Firestore, Express,
+          React, Redux, Material-UI,
+        </div>
+      </div>
+
+      <hr />
+
+      <h3>Website Design</h3>
+      <div class="row description-row">
+        <div class="col-md-5 col-sm-12 col-xs-12 project-image-column">
+          <figure class="effect">
+            <img src="img/number_one_nails.png" alt="numberonenails.ca" />
+            <figcaption>
+              <p>Visit Number One Nails</p>
+              <a href="https://numberonenails.ca" target="_blank">View more</a>
+              <span class="icon">
+                <span class="glyphicon glyphicon-new-window"></span>
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="project-description col-md-7 col-sm-12 col-xs-12">
+          <h4 class="projects-heading-name">Number One Nails</h4>
+          <p>
+            A simple website made for a local nail salon to introduce themselves
+            and provide information to customers.
+          </p>
+          <strong>Technologies:</strong> Sass, Flexbox, CSS3
+        </div>
+      </div>
+      <div class="row description-row">
+        <div class="col-md-5 col-sm-12 col-xs-12 project-image-column">
+          <figure class="effect">
+            <img src="img/trillo.png" alt="trillo" />
+            <figcaption>
+              <p>Visit Trillo</p>
+              <a
+                href="https://fathomless-meadow-43995.herokuapp.com/"
+                target="_blank"
+                >View more</a
+              >
+              <span class="icon">
+                <span class="glyphicon glyphicon-new-window"></span>
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+        <div
+          class="project-description col-md-7 col-sm-12 col-xs-12 project-description"
+        >
+          <h4 class="projects-heading-name">Trillo</h4>
+          <p>
+            A mock website for a travel website. Made to demonstrate and
+            practice flexbox.
+          </p>
+          <strong>Technologies:</strong> Sass, Flexbox, CSS3
+        </div>
+      </div>
+      <div class="row description-row">
+        <div class="col-md-5 col-sm-12 col-xs-12 project-image-column">
+          <figure class="effect">
+            <img src="img/nexter.png" alt="nexter" />
+            <figcaption>
+              <p>Visit Nexter</p>
+              <a
+                href="https://aqueous-taiga-50721.herokuapp.com/"
+                target="_blank"
+                >View more</a
+              >
+              <span class="icon">
+                <span class="glyphicon glyphicon-new-window"></span>
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+        <div
+          class="project-description col-md-7 col-sm-12 col-xs-12 project-description"
+        >
+          <h4 class="projects-heading-name">Nexter</h4>
+          <p>
+            A mock website for a realty company. Made to demonstrate and
+            practice CSS grid.
+          </p>
+          <strong>Technologies:</strong> Sass, CSS Grid, CSS3
+        </div>
+      </div>
+    </div>
+
+    <div class="background-gray">
+      <div id="contact" class="container">
+        <h2>Contact</h2>
+        <p class="lead">
+          &ldquo;If I had asked people what they wanted, they would have said
+          faster horses. &rdquo;<br />- Henry Ford
+        </p>
+
+        <hr />
+
+        <div class="row">
+          <div class="text-center">
+            <a href="mailto:moc.liamg@vedbewyugnleahcim">
+              <span class="glyphicon glyphicon-envelope"></span>
+              <span style="unicode-bidi: bidi-override; direction: rtl">
+                moc.liamg@vedbewyugnleahcim
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <hr />
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="upgrade-dialog"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Your browser is out of date</h4>
+          </div>
+          <div class="modal-body">
+            <p>
+              To get the best possible experience using our site we recommend
+              that you upgrade to a modern web browser. To download a newer web
+              browser click on the Upgrade button.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="http://browsehappy.com/"
+              target="_blank"
+              class="btn btn-primary"
+              >Upgrade</a
+            >
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <!-- Bootstrap core JavaScript -->
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>
